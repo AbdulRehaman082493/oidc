@@ -19,7 +19,7 @@ jobs:
   # ----------------------------------------------------
   lint:
     if: github.event_name == 'pull_request'
-    uses: ./.github/workflows/lint.yaml@main
+    uses: ./.github/workflows/lint.yaml
     with:
       AZ_LOGIN: true
     secrets:
