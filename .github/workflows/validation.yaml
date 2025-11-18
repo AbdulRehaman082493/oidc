@@ -19,7 +19,7 @@ jobs:
   # ----------------------------------------------------
   lint:
     if: github.event_name == 'pull_request'
-    uses: AMC-IIOPS/github-workflows/.github/workflows/bicep-lint.yaml@main
+    uses: AMC-IIOPS/github-workflows/.github/workflows/lint.yaml@main
     with:
       AZ_LOGIN: true
     secrets:
